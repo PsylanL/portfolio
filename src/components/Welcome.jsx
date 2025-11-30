@@ -19,7 +19,7 @@ const renderText = (text, className, baseWeight = 400) => {
 };
 
 const setupTextHover = (container, type) => {
-  if (!container) return;
+  if (!container) return () => {};
   const letters = container.querySelectorAll("span");
   const { min, max, default: base } = FONT_WEIGHTS[type];
   const animateLetter = (letter, weight, duration = 0.25) => {
@@ -78,7 +78,7 @@ const Welcome = () => {
         {renderText("portfolio", "text-9xl italic font-georama")}
       </h1>
       <div className="small-screen">
-        <p>This Portfolio is designed for desktop/tabled screens</p>
+        <p>This Portfolio is designed for desktop/tablet screens</p>
       </div>
     </section>
   );
