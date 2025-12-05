@@ -61,15 +61,6 @@ body {
   }
 }
 
-.pdf-page {
-  opacity: 0;
-  transition: opacity 200ms ease;
-}
-.pdf-page.loaded {
-  opacity: 1;
-}
-
-
 @layer components {
   .icon {
     @apply p-1 hover:bg-gray-200 rounded hover:cursor-default;
