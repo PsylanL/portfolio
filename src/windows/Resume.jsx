@@ -49,7 +49,7 @@ const Resume = () => {
           <ChevronLeft size={18} />
         </button>
 
-        <span>
+        <span className="text-gray-600">
           Page {pageNumber} / {numPages || "…"}
         </span>
 

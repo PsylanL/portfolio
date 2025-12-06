@@ -5,6 +5,8 @@ import Finder from "#windows/Finder"
 import Text from "#windows/Text"
 import Image from "#windows/Image"
 import Contact from "#windows/Contact"
+import Photos from "#windows/Photos"
+
 export {
   Terminal,
   Safari,
@@ -12,5 +14,6 @@ export {
   Finder,
   Text,
   Image,
-  Contact
+  Contact,
+  Photos
 };
