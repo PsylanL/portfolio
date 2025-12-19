@@ -77,44 +77,39 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
-    title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    date: "Jun 23, 2025",
+    title:"YOLOv8 — Aircraft Detection",
+    image: "/images/blog1.jpg",
+    link: "https://colab.research.google.com/drive/1vnLI7nZ1aV2iTX5kvqJ2K3yLxGonguGT?usp=sharing",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    date: "Jun 21, 2025",
+    title: "Machine Learning — Parkinson’s Dataset",
+    image: "/images/blog2.jpg",
+    link: "https://colab.research.google.com/drive/1MQUOqKXS7h5xKKtbuTw-IgQf-hqor22F?usp=sharing",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
-    image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    date: "Mar 31, 2025",
+    title: "Machine Learning Classification — Learning Project",
+    image: "/images/blog3.jpg",
+    link: "https://colab.research.google.com/drive/1_UeWt1RB0wCXCAJH6JKNtXl4US8BfO98?usp=sharing",
   },
 ];
 
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React.js", "Next.js", "Learning TypeScript"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "Sass", "CSS", "GSAP"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express", "Redis"],
   },
   {
     category: "Database",
@@ -178,7 +173,7 @@ const gallery = [
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/gal2.jpeg",
   },
   {
     id: 3,
@@ -186,7 +181,7 @@ const gallery = [
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/gal4.jpeg",
   },
 ];
 
@@ -383,25 +378,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/dylan2.jpeg",
     },
     {
       id: 2,
-      name: "casual-me.png",
+      name: "me-traveling.png",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
-    },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/dylan3.jpeg",
     },
     {
       id: 4,
@@ -411,12 +397,12 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/dylan-short.png",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Dylan 👋, a web developer who enjoys building, interactive websites that actually work well.",
+        "I specialize in JavaScript, React, and Next.js. ",
+        "I love making things feel clean, smooth and fast.",
+        "Outside of dev work, you'll find me playing videogames at 2AM, hanging out with my friends at some random place, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
       ],
     },
   ],

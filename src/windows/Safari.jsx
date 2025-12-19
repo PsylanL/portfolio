@@ -43,6 +43,7 @@ const Safari = () => {
       <div className="blog">
         <h2>My Dev Blog</h2>
         <div className="space-y-8">
+        <p>A collection of notebooks where I explore AI topics through practical experiments, showcasing my problem-solving approach, coding style, and learning process.</p>
           {blogPosts.map(({ id, image, title, date, link }) => (
             <div key={id} className="blog-post">
               <div className="col-span-2">
@@ -52,7 +53,7 @@ const Safari = () => {
                 <p>{date}</p>
                 <h3>{title}</h3>
                 <a href={link} target="_blank" rel="noopener noreferrer">
-                  Check out the full post
+                  Check out the notebook
                   <MoveRight className="icon-hover" />
                 </a>
               </div>
