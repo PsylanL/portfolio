@@ -209,7 +209,7 @@ const WORK_LOCATION = {
       name: "Cromatizate - Daltonism Academic Project",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
+      position: "top-10 left-12", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
       children: [
         {
@@ -259,7 +259,7 @@ const WORK_LOCATION = {
       name: "Apple Clone - Three.js & React Project",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-52 right-80",
+      position: "top-52 right-92",
       windowPosition: "top-[20vh] left-7",
       children: [
         {
@@ -348,6 +348,57 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "fig",
           href: "https://www.figma.com/design/2vtjgodtBxTdg0zOUHPvXh/JSM-Pro---DevOverflow?node-id=1-49&p=f&t=tS2PahRare0nw8hn-0",
+          position: "top-60 right-20",
+        },
+      ],
+    },
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Evaluaproject - Academic Evaluation Tool",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-50 left-80",
+      windowPosition: "top-[47vh] left-7",
+      children: [
+        {
+          id: 1,
+          name: "Evaluaproject - Evaluation Platform.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "EvaluaProject is an educational platform designed to help university students learn the economic and technical fundamentals of project formulation and evaluation through hands-on practice.",
+            "It provides predefined templates for different productive processes, automatic calculation of financial and economic indicators, intuitive and responsive interfaces for classroom use, and visual tools that make results easier to understand.",
+            "The core forecasting engine is already deployed and validated, supporting arithmetic and geometric progressions, least-squares regression, and linear regression.",
+          ],
+        },
+        {
+          id: 2,
+          name: "evaluaproject.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://evaluaproject.onrender.com/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "evaluaproject.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/evaluaproject.png",
+        },
+        {
+          id: 5,
+          name: "evaluaproject.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
           position: "top-60 right-20",
         },
       ],
